@@ -3,34 +3,99 @@ JFDML JFormDesigner: "7.0.5.3.411" Java: "11.0.13" encoding: "UTF-8"
 new FormModel {
 	contentType: "form/swing"
 	root: new FormRoot {
-		add( new FormContainer( "javax.swing.JScrollPane", new FormLayoutManager( class javax.swing.JScrollPane ) ) {
+		add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class java.awt.BorderLayout ) {
+			"vgap": 2
+		} ) {
 			name: "this"
-			"viewportBorder": sfield com.jformdesigner.model.FormObject NULL_VALUE
-			"componentOrientation": sfield java.awt.ComponentOrientation LEFT_TO_RIGHT
-			"minimumSize": new java.awt.Dimension( 300, 300 )
-			"preferredSize": new java.awt.Dimension( 300, 300 )
-			"background": sfield java.awt.Color black
-			"toolTipText": "HTML Code"
-			"autoscrolls": true
-			"border": sfield com.jformdesigner.model.FormObject NULL_VALUE
-			add( new FormComponent( "javax.swing.JTextArea" ) {
-				name: "textArea"
+			"preferredSize": new java.awt.Dimension( 700, 350 )
+			"minimumSize": new java.awt.Dimension( 700, 350 )
+			add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class java.awt.FlowLayout ) {
+				"vgap": 0
+				"hgap": 0
+			} ) {
+				name: "urlPanel"
+				"minimumSize": new java.awt.Dimension( 730, 50 )
+				"preferredSize": new java.awt.Dimension( 730, 50 )
 				"background": sfield java.awt.Color black
-				"toolTipText": "HTML code?"
-				"componentOrientation": sfield java.awt.ComponentOrientation LEFT_TO_RIGHT
 				"foreground": sfield java.awt.Color white
-				"tabSize": 4
-				"text": "HTML code?"
-				"disabledTextColor": new java.awt.Color( 153, 153, 153, 255 )
-				"selectedTextColor": sfield java.awt.Color lightGray
-				"caretColor": new java.awt.Color( 0, 204, 204, 255 )
-				"lineWrap": true
-				"enabled": false
-				"name": "TextArea"
+				"name": "urlPanel"
+				"componentOrientation": sfield java.awt.ComponentOrientation LEFT_TO_RIGHT
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "urlTextField"
+					"name": "UrlTextField"
+					"caretColor": new java.awt.Color( 0, 204, 204, 255 )
+					"foreground": sfield java.awt.Color white
+					"selectedTextColor": sfield java.awt.Color lightGray
+					"disabledTextColor": new java.awt.Color( 153, 153, 153, 255 )
+					"componentOrientation": sfield java.awt.ComponentOrientation LEFT_TO_RIGHT
+					"font": new java.awt.Font( "JetBrains Mono", 0, 12 )
+					"preferredSize": new java.awt.Dimension( 700, 45 )
+					"minimumSize": new java.awt.Dimension( 700, 45 )
+					"horizontalAlignment": 2
+					"text": "https://www.ahmedhosny.com"
+					"toolTipText": "URL"
+					"selectionEnd": 26
+					"selectionStart": 8
+					"border": sfield com.jformdesigner.model.FormObject NULL_VALUE
+					"background": sfield java.awt.Color black
+					"margin": new java.awt.Insets( 0, 5, 0, 0 )
+				} )
+				add( new FormComponent( "javax.swing.JButton" ) {
+					name: "runButton"
+					"text": "Get text!"
+					"preferredSize": new java.awt.Dimension( 100, 30 )
+					"maximumSize": new java.awt.Dimension( 100, 30 )
+					"minimumSize": new java.awt.Dimension( 100, 30 )
+					"border": sfield com.jformdesigner.model.FormObject NULL_VALUE
+					"componentOrientation": sfield java.awt.ComponentOrientation LEFT_TO_RIGHT
+					"cursor": new java.awt.Cursor( 12 )
+					"defaultCapable": false
+					"name": "RunButton"
+					"horizontalTextPosition": 0
+					auxiliary() {
+						"JavaCodeGenerator.variableModifiers": 130
+					}
+					addEvent( new FormEvent( "java.awt.event.ActionListener", "actionPerformed", "run", true ) )
+					addEvent( new FormEvent( "java.awt.event.ActionListener", "actionPerformed", "run", false ) )
+				} )
+			}, new FormLayoutConstraints( class java.lang.String ) {
+				"value": "First"
+			} )
+			add( new FormContainer( "javax.swing.JScrollPane", new FormLayoutManager( class javax.swing.JScrollPane ) ) {
+				name: "textAreaScrollPane"
+				"viewportBorder": sfield com.jformdesigner.model.FormObject NULL_VALUE
+				"componentOrientation": sfield java.awt.ComponentOrientation LEFT_TO_RIGHT
+				"minimumSize": new java.awt.Dimension( 300, 300 )
+				"preferredSize": new java.awt.Dimension( 300, 300 )
+				"background": new java.awt.Color( 65, 53, 53, 255 )
+				"toolTipText": "HTML Code"
+				"autoscrolls": true
+				"border": sfield com.jformdesigner.model.FormObject NULL_VALUE
+				"alignmentX": 5.0f
+				"alignmentY": 5.0f
+				add( new FormComponent( "javax.swing.JTextArea" ) {
+					name: "htmlTextArea"
+					"background": sfield java.awt.Color black
+					"toolTipText": "HTML code?"
+					"componentOrientation": sfield java.awt.ComponentOrientation LEFT_TO_RIGHT
+					"foreground": sfield java.awt.Color white
+					"tabSize": 4
+					"text": "HTML code?"
+					"disabledTextColor": new java.awt.Color( 153, 153, 153, 255 )
+					"selectedTextColor": sfield java.awt.Color lightGray
+					"caretColor": new java.awt.Color( 0, 204, 204, 255 )
+					"lineWrap": true
+					"enabled": false
+					"name": "HtmlTextArea"
+					"alignmentX": 5.0f
+					"alignmentY": 5.0f
+				} )
+			}, new FormLayoutConstraints( class java.lang.String ) {
+				"value": "Center"
 			} )
 		}, new FormLayoutConstraints( null ) {
-			"location": new java.awt.Point( 0, 0 )
-			"size": new java.awt.Dimension( 400, 300 )
+			"location": new java.awt.Point( 45, 35 )
+			"size": new java.awt.Dimension( 820, 520 )
 		} )
 	}
 }

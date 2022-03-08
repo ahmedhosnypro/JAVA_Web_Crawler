@@ -61,8 +61,6 @@ configure(subprojects.findAll {it.name != 'util'}) {
     dependencies {
         testImplementation project(':util').sourceSets.main.output
         testImplementation project(':util').sourceSets.test.output
-        implementation 'com.formdev:flatlaf:2.0.2'
-
     }
 }
 

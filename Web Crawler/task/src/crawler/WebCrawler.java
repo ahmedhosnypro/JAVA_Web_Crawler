@@ -2,12 +2,18 @@ package crawler;
 
 import javax.swing.*;
 import java.awt.*;
+import java.awt.event.ActionListener;
 
 public class WebCrawler extends JFrame {
     private final HtmlCodeViewer htmlCodeViewer = new HtmlCodeViewer();
 
-    final Dimension dimension = new Dimension(450, 450);
+    final Dimension dimension = new Dimension(850, 500);
     final ImageIcon icon = new ImageIcon("Web Crawler/task/src/crawler/webCrawler.png");
+
+    private final transient ActionListener runButtonActionListener = e -> {
+        htmlCodeViewer.getHtmlTextArea()
+                .setText(HTMLCodeDownloader.getCode(htmlCodeViewer.getUrlTextField().getText()));
+    };
 
     public WebCrawler() {
         setTitle("Web Crawler");
@@ -27,5 +33,6 @@ public class WebCrawler extends JFrame {
 
     void initComponents() {
         add(htmlCodeViewer, BorderLayout.CENTER);
+        htmlCodeViewer.getRunButton().addActionListener(runButtonActionListener);
     }
 }

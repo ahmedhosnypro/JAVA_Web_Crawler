@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="GradleMigrationSettings" migrationVersion="1" />
   <component name="GradleSettings">
     <option name="linkedExternalProjectsSettings">
       <GradleProjectSettings>
@@ -11,7 +12,19 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/Topics/Observer/A disadvantage" />
+            <option value="$PROJECT_DIR$/Topics/Observer/A new rockstar game" />
+            <option value="$PROJECT_DIR$/Topics/Observer/Observer in JDK" />
+            <option value="$PROJECT_DIR$/Topics/Observer/Rockstar games" />
+            <option value="$PROJECT_DIR$/Topics/Observer/Statements" />
+            <option value="$PROJECT_DIR$/Topics/Observer/Theory" />
             <option value="$PROJECT_DIR$/Web Crawler/task" />
+            <option value="$PROJECT_DIR$/Web Crawler/task/build/classes/java" />
+            <option value="$PROJECT_DIR$/Web Crawler/task/build/generated/sources/annotationProcessor/java" />
+            <option value="$PROJECT_DIR$/Web Crawler/task/build/generated/sources/headers/java" />
+            <option value="$PROJECT_DIR$/Web Crawler/task/build/reports/tests" />
+            <option value="$PROJECT_DIR$/Web Crawler/task/build/test-results" />
+            <option value="$PROJECT_DIR$/Web Crawler/task/build/tmp" />
             <option value="$PROJECT_DIR$/util" />
           </set>
         </option>
