@@ -4,9 +4,11 @@ import java.util.Map;
 public class PageContent {
     private Map<String, String> linksNContent;
     private Map<String, String> linksNTitles;
+    private Map<String, Integer> linksNSubLinks;
     public PageContent(){
         linksNContent = new HashMap<>();
         linksNTitles = new HashMap<>();
+        linksNSubLinks = new HashMap<>();
         initPageContent();
     }
     
@@ -121,11 +123,15 @@ public class PageContent {
         linksNTitles.put(circular1Link, circular1Title);
         linksNTitles.put(circular2Link, circular2Title);
         linksNTitles.put(circular3Link, circular3Title);
-    }
-    public Map<String, String> getLinksNContent(){
-        return linksNContent;
+        
+        linksNSubLinks.put(exampleDomainLink, 1);
+        linksNSubLinks.put(circular1Link, 2);
+        linksNSubLinks.put(circular2Link, 2);
+        linksNSubLinks.put(circular3Link, 3);
     }
     
+    public Map<String, String> getLinksNTitles(){return linksNTitles;}
+    public int getSubLinksWithLink(String link){return linksNSubLinks.getOrDefault(link, 0);}
     public String getContentWithLink(String link){
         return linksNContent.getOrDefault(link, "");
     }

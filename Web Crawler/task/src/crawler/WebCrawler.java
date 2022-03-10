@@ -3,16 +3,36 @@ package crawler;
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionListener;
+import java.net.URISyntaxException;
 
 public class WebCrawler extends JFrame {
     private final HtmlCodeViewer htmlCodeViewer = new HtmlCodeViewer();
+    private final TitleTable titleTable = new TitleTable();
 
     final Dimension dimension = new Dimension(850, 500);
     final ImageIcon icon = new ImageIcon("Web Crawler/task/src/crawler/webCrawler.png");
 
+
     private final transient ActionListener runButtonActionListener = e -> {
-        htmlCodeViewer.getHtmlTextArea()
-                .setText(HTMLCodeDownloader.getCode(htmlCodeViewer.getUrlTextField().getText()));
+        //get url from text field
+        String url = htmlCodeViewer.getUrlTextField().getText();
+
+        //create table model and set it to JTable and update ui
+        UrlTitleTableModel urlTitleTableModel = null;
+        try {
+            urlTitleTableModel = UrlExtractor.collectAllLinkTitles(url);
+        } catch (URISyntaxException ex) {
+            ex.printStackTrace();
+        }
+        assert urlTitleTableModel != null;
+        titleTable.getTitlesTable()
+                .setModel(urlTitleTableModel);
+        titleTable.getTitlesTable().updateUI();
+
+        //update JPanel title
+        String htmlCode = UrlExtractor.getHtmlCode(url);
+        //htmlCodeViewer.getHtmlTextArea().setText(htmlCode);
+        htmlCodeViewer.getTitleLabel().setText(UrlExtractor.getTitle(htmlCode));
     };
 
     public WebCrawler() {
@@ -32,7 +52,9 @@ public class WebCrawler extends JFrame {
     }
 
     void initComponents() {
-        add(htmlCodeViewer, BorderLayout.CENTER);
+        add(htmlCodeViewer, BorderLayout.NORTH);
         htmlCodeViewer.getRunButton().addActionListener(runButtonActionListener);
+
+        add(titleTable, BorderLayout.CENTER);
     }
 }

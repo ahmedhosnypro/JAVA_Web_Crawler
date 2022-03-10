@@ -8,6 +8,9 @@
       <module name="Web_Crawler.Topics-Observer-Rockstar_games.main" target="11" />
       <module name="Web_Crawler.Topics-Observer-Statements.main" target="11" />
       <module name="Web_Crawler.Topics-Observer-Theory.main" target="11" />
+      <module name="Web_Crawler.Topics-The_Map_interface-Creating_a_map.main" target="11" />
+      <module name="Web_Crawler.Topics-The_Map_interface-Getting_submaps.main" target="11" />
+      <module name="Web_Crawler.Topics-The_Map_interface-Theory.main" target="11" />
       <module name="Web_Crawler.util.main" target="11" />
       <module name="Web_Crawler.Web_Crawler-task-build-classes-java.main" target="11" />
       <module name="Web_Crawler.Web_Crawler-task-build-generated-sources-annotationProcessor-java.main" target="11" />
