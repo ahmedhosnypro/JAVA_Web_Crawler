@@ -6,13 +6,12 @@ package crawler;
 
 import java.awt.*;
 import javax.swing.*;
-import javax.swing.table.*;
 
 /**
- * @author unknown
+ * @author ahmed
  */
-public class HtmlCodeViewer extends JPanel {
-    public HtmlCodeViewer() {
+public class UrlParserPanel extends JPanel {
+    public UrlParserPanel() {
         initComponents();
     }
 
@@ -54,7 +53,7 @@ public class HtmlCodeViewer extends JPanel {
         add(urlTextField);
 
         //---- runButton ----
-        runButton.setText("Get text!");
+        runButton.setText("Parse");
         runButton.setPreferredSize(new Dimension(100, 30));
         runButton.setMaximumSize(new Dimension(100, 30));
         runButton.setMinimumSize(new Dimension(100, 30));
@@ -136,17 +135,12 @@ public class HtmlCodeViewer extends JPanel {
     private JTextArea htmlTextArea;
     // JFormDesigner - End of variables declaration  //GEN-END:variables
 
-
     public JButton getRunButton() {
         return runButton;
     }
 
     public JTextField getUrlTextField() {
         return urlTextField;
-    }
-
-    public JTextArea getHtmlTextArea() {
-        return htmlTextArea;
     }
 
     public JLabel getTitleLabel() {

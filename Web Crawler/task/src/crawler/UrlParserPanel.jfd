@@ -35,7 +35,7 @@ new FormModel {
 			} )
 			add( new FormComponent( "javax.swing.JButton" ) {
 				name: "runButton"
-				"text": "Get text!"
+				"text": "Parse"
 				"preferredSize": new java.awt.Dimension( 100, 30 )
 				"maximumSize": new java.awt.Dimension( 100, 30 )
 				"minimumSize": new java.awt.Dimension( 100, 30 )

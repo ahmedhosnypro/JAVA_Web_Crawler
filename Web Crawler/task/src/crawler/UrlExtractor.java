@@ -14,6 +14,7 @@ public class UrlExtractor {
     private static final String linkRegex = "href=\"[^\"]*+\"";
     private static final Pattern titlePattern = Pattern.compile(titleRegex, Pattern.CASE_INSENSITIVE);
     private static final Pattern linkPattern = Pattern.compile(linkRegex, Pattern.CASE_INSENSITIVE);
+    private static SortedMap<String, String> urlTitlesMap;
 
     private UrlExtractor() {
         throw new IllegalStateException("HTMLCodeDownloader class");
@@ -22,14 +23,14 @@ public class UrlExtractor {
     public static UrlTitleTableModel collectAllLinkTitles(String url) throws URISyntaxException {
         ArrayList<String> tableTitles = new ArrayList<>(List.of("URL", "Title"));       //table model columns
         ArrayList<ArrayList<String>> urlTitlesRows = new ArrayList<>();     //table model data
-
+        urlTitlesMap = new TreeMap<>();
         //get main url html code
         String mainUrlHtmlCode = getHtmlCode(url);
 
         //get main url title
         String mainUrlTitle = getTitle(mainUrlHtmlCode);
         urlTitlesRows.add(new ArrayList<>(List.of(url, mainUrlTitle)));
-
+        urlTitlesMap.put(url, mainUrlTitle);
         //get all html links
         URI uri = new URI(url);
         SortedSet<String> htmlLinks = getAllHtmlLinks(uri, mainUrlHtmlCode);
@@ -41,6 +42,7 @@ public class UrlExtractor {
 
             String title = getTitle(htmlCode);
             urlTitlesRows.add(new ArrayList<>(List.of(link, title)));
+            urlTitlesMap.put(link, title);
         }
 
         return new UrlTitleTableModel(tableTitles, urlTitlesRows);
@@ -144,5 +146,9 @@ public class UrlExtractor {
 
         absolutePath.append(uriPath).append(relativePath);
         return absolutePath.toString();
+    }
+
+    public static SortedMap<String, String> getUrlTitlesMap() {
+        return urlTitlesMap;
     }
 }
