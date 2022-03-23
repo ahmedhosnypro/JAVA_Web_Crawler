@@ -8,9 +8,53 @@
       <module name="Web_Crawler.Topics-Observer-Rockstar_games.main" target="11" />
       <module name="Web_Crawler.Topics-Observer-Statements.main" target="11" />
       <module name="Web_Crawler.Topics-Observer-Theory.main" target="11" />
+      <module name="Web_Crawler.Topics-Processing_strings-Compression_algorithm.main" target="11" />
+      <module name="Web_Crawler.Topics-Processing_strings-Create_an_euphonious_word.main" target="11" />
+      <module name="Web_Crawler.Topics-Processing_strings-Cutting_out_the_middle_of_a_string.main" target="11" />
+      <module name="Web_Crawler.Topics-Processing_strings-Determine_the_value.main" target="11" />
+      <module name="Web_Crawler.Topics-Processing_strings-Double_characters.main" target="11" />
+      <module name="Web_Crawler.Topics-Processing_strings-Find_the_first_occurrence_of_the_word__the.main" target="11" />
+      <module name="Web_Crawler.Topics-Processing_strings-Generating_passwords.main" target="11" />
+      <module name="Web_Crawler.Topics-Processing_strings-Move_the_first_N_characters.main" target="11" />
+      <module name="Web_Crawler.Topics-Processing_strings-Number_of_occurrences.main" target="11" />
+      <module name="Web_Crawler.Topics-Processing_strings-Palindrome.main" target="11" />
+      <module name="Web_Crawler.Topics-Processing_strings-Parse_url.main" target="11" />
+      <module name="Web_Crawler.Topics-Processing_strings-Piece_of_alphabet.main" target="11" />
+      <module name="Web_Crawler.Topics-Processing_strings-The_longest_word.main" target="11" />
+      <module name="Web_Crawler.Topics-Processing_strings-The_lucky_ticket.main" target="11" />
+      <module name="Web_Crawler.Topics-Processing_strings-The_percentage_of_G_and_C_characters.main" target="11" />
+      <module name="Web_Crawler.Topics-Processing_strings-Theory.main" target="11" />
+      <module name="Web_Crawler.Topics-The_List_interface-Backward_indexes.main" target="11" />
+      <module name="Web_Crawler.Topics-The_List_interface-Companies.main" target="11" />
+      <module name="Web_Crawler.Topics-The_List_interface-Count_the_value_occurrences.main" target="11" />
+      <module name="Web_Crawler.Topics-The_List_interface-Equal_lists.main" target="11" />
+      <module name="Web_Crawler.Topics-The_List_interface-Filtering_the_list.main" target="11" />
+      <module name="Web_Crawler.Topics-The_List_interface-Greek_letters.main" target="11" />
+      <module name="Web_Crawler.Topics-The_List_interface-Implementations.main" target="11" />
+      <module name="Web_Crawler.Topics-The_List_interface-Replacing_ArrayList_with_LinkedList.main" target="11" />
+      <module name="Web_Crawler.Topics-The_List_interface-Results_of_operations.main" target="11" />
+      <module name="Web_Crawler.Topics-The_List_interface-Select_correct_assignments.main" target="11" />
+      <module name="Web_Crawler.Topics-The_List_interface-Setting_a_new_name.main" target="11" />
+      <module name="Web_Crawler.Topics-The_List_interface-Split_a_list_into_sublists.main" target="11" />
+      <module name="Web_Crawler.Topics-The_List_interface-The_longest_string_in_the_list.main" target="11" />
+      <module name="Web_Crawler.Topics-The_List_interface-Theory.main" target="11" />
       <module name="Web_Crawler.Topics-The_Map_interface-Creating_a_map.main" target="11" />
       <module name="Web_Crawler.Topics-The_Map_interface-Getting_submaps.main" target="11" />
       <module name="Web_Crawler.Topics-The_Map_interface-Theory.main" target="11" />
+      <module name="Web_Crawler.Topics-Thread_synchronization-Countdown_counter.main" target="11" />
+      <module name="Web_Crawler.Topics-Thread_synchronization-Initialize_fields_only_once.main" target="11" />
+      <module name="Web_Crawler.Topics-Thread_synchronization-Method_inside_the_synchronized_block.main" target="11" />
+      <module name="Web_Crawler.Topics-Thread_synchronization-Methods.main" target="11" />
+      <module name="Web_Crawler.Topics-Thread_synchronization-Multithreaded_counter.main" target="11" />
+      <module name="Web_Crawler.Topics-Thread_synchronization-Synchronize_the_code.main" target="11" />
+      <module name="Web_Crawler.Topics-Thread_synchronization-Synchronized_blocks.main" target="11" />
+      <module name="Web_Crawler.Topics-Thread_synchronization-Synchronized_keyword.main" target="11" />
+      <module name="Web_Crawler.Topics-Thread_synchronization-Theory.main" target="11" />
+      <module name="Web_Crawler.Topics-Thread_synchronization-Thread_synchronization_in_Java.main" target="11" />
+      <module name="Web_Crawler.Topics-Thread_synchronization-Two_methods,_two_statements.main" target="11" />
+      <module name="Web_Crawler.Topics-Thread_synchronization-What_is_incorrect_about_monitors.main" target="11" />
+      <module name="Web_Crawler.Topics-Thread_synchronization-What_is_wrong.main" target="11" />
+      <module name="Web_Crawler.Topics-Thread_synchronization-Where_it_is_possible_to_write_synchronized.main" target="11" />
       <module name="Web_Crawler.util.main" target="11" />
       <module name="Web_Crawler.Web_Crawler-task-build-classes-java.main" target="11" />
       <module name="Web_Crawler.Web_Crawler-task-build-generated-sources-annotationProcessor-java.main" target="11" />

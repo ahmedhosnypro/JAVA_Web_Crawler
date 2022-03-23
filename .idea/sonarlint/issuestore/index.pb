@@ -79,10 +79,6 @@ X.idea/modules/Web Crawler/task/build/tmp/Web_Crawler.Web_Crawler-task-build-tmp
 j.idea/modules/Web Crawler/task/build/test-results/Web_Crawler.Web_Crawler-task-build-test-results.main.iml,7\1\71ef4279784bacfebe8e506c766d951c10d41270
 ˆ
 X.idea/modules/Web Crawler/task/build/tmp/Web_Crawler.Web_Crawler-task-build-tmp.test.iml,5\7\5707df42a01a55a82a68bb1e1d38aa50302dd2c1
-[
-+Web Crawler/Save the results/task-info.yaml,d\6\d6d2f507e6d7822ad75fc8190aeab332c3c99e3e
-^
-.Web Crawler/Complicated matters/task-info.yaml,5\b\5b997d4904a0ad0d65e3e87bd098d74cf038599d
 c
 3Web Crawler/Crawl through the window/task-info.yaml,8\6\868a4e87d3b8588473e585819b33d32e02396611
 ƒ
@@ -140,3 +136,59 @@ P
 -Topics/Observer/Observer in JDK/src/Task.java,d\0\d0bc6c621cbc1721bd2b2d7bff9c69d82069820c
 X
 (Topics/Observer/Statements/src/Task.java,c\6\c6ba5ea8d370f2adf823ec0f243a03f2ad119b65
+f
+6Topics/The Map interface/Creating a map/task-info.yaml,f\2\f2f92dd1674898870c55870be413dd2760bbd96f
+¢
+r.idea/modules/Topics/The Map interface/Creating a map/Web_Crawler.Topics-The_Map_interface-Creating_a_map.main.iml,9\a\9ad0568a07fe6b4e812e244066de1ada94c08f80
+
+m.idea/modules/Topics/The Map interface/Creating a map/Web_Crawler.Topics-The_Map_interface-Creating_a_map.iml,5\6\563a301184c388b3be285d31f74cb64f9fbd55ba
+¢
+r.idea/modules/Topics/The Map interface/Creating a map/Web_Crawler.Topics-The_Map_interface-Creating_a_map.test.iml,3\9\3978b480aa116fb130075dbf1579b4d47980f0d5
+m
+=Topics/The Map interface/Creating a map/task-remote-info.yaml,e\c\ecc66c66b2b9c59e186b2754ac306819a59d6317
+
+].idea/modules/Topics/The Map interface/Theory/Web_Crawler.Topics-The_Map_interface-Theory.iml,1\2\124ea643e84210e9dbe8d2e7d9fb8390f86cc731
+Ÿ
+o.idea/modules/Topics/The Map interface/Getting submaps/Web_Crawler.Topics-The_Map_interface-Getting_submaps.iml,1\5\15a13311c1a8337b9829e47e6b6ba0e694ac7f69
+Y
+)Topics/The Map interface/lesson-info.yaml,a\7\a711901000a131d888cf7d16adb0d38ab1f1a282
+g
+7Topics/The Map interface/Getting submaps/task-info.yaml,c\6\c65ab1711803ec2f4abfcedd005635ab091e945a
+n
+>Topics/The Map interface/Getting submaps/task-remote-info.yaml,e\d\ed97f5984dd5292de4e1527b649d2e1a006ede52
+’
+b.idea/modules/Topics/The Map interface/Theory/Web_Crawler.Topics-The_Map_interface-Theory.test.iml,7\3\73a87e2898c7399a95cdabc10c5e82879c6752e2
+’
+b.idea/modules/Topics/The Map interface/Theory/Web_Crawler.Topics-The_Map_interface-Theory.main.iml,1\4\14e1c8c43f6cb45dda19890d03267cc29c45ecf8
+¤
+t.idea/modules/Topics/The Map interface/Getting submaps/Web_Crawler.Topics-The_Map_interface-Getting_submaps.test.iml,d\3\d3c93dfb7c9e31cef315c56956283781045e113b
+¤
+t.idea/modules/Topics/The Map interface/Getting submaps/Web_Crawler.Topics-The_Map_interface-Getting_submaps.main.iml,f\d\fd559485274f79f7f629733bc2a0be2dd4e98540
+^
+.Topics/The Map interface/Theory/task-info.yaml,8\6\862cfddeddf4d5251789129d64040c55de4e22b6
+Q
+!Web Crawler/Titles/task-info.yaml,9\d\9dcd20e0e59b8bd095efa7815dea76a6624bd697
+W
+'Web Crawler/Links, links/task-info.yaml,6\b\6bfd5c8d83068a62ca4ffeff5ee830374350e8cc
+e
+5Topics/The Map interface/Creating a map/src/Main.java,f\6\f636a3f787f5e48d50ea43ea31cfa120036eef1a
+f
+6Topics/The Map interface/Getting submaps/src/Main.java,8\4\845024ce50a23338224fd43ba4f7a46314c1d926
+a
+1Topics/The Map interface/Creating a map/task.html,5\a\5a1bab681ed7df215129b535480ddd03d29cefe1
+b
+2Topics/The Map interface/Getting submaps/task.html,3\e\3ea9af0e453bc083bfad19082c6fd19167e2086a
+T
+$Topics/Observer/Theory/src/Task.java,3\7\3799641884307a4539c3cdf2e417ae503e019325
+\
+,Web Crawler/task/src/crawler/TitleTable.java,6\8\68d15e1ad4c1f72d91dbea8288d466a062a008c2
+]
+-Topics/The Map interface/Theory/src/Task.java,f\b\fb5514b740eac2e580681580f375e677f3737354
+V
+&Web Crawler/task/test/PageContent.java,3\c\3c82cfb27dabd8e0e8d928472fcbff2fd1eb1735
+V
+&Web Crawler/task/src/crawler/links.txt,6\4\6494a45d41fa0bcd5fab38f714ccaeb581ea2544
+[
++Web Crawler/Collect them all/task-info.yaml,4\2\42dcdae304d1ab3a89f7c756dc2d986ec6bc7ea4
+]
+-Web Crawler/task/src/crawler/ExportPanel.java,6\0\60b56514897532d03236f835a344bec848d8049c

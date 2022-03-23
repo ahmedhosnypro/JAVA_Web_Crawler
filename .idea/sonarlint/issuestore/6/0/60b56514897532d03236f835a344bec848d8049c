@@ -1,0 +1,11 @@
+
+w
+java:S1450U"ZRemove the "exportLabel" field and declare it as a local variable in the relevant methods.(¢Âè¢8‚­ß“÷/
+{
+java:S1450S"_Remove the "exportLabelPanel" field and declare it as a local variable in the relevant methods.(Ö‘õh8Õ½”÷/
+x
+java:S1450T"VRemove the "hSpacer" field and declare it as a local variable in the relevant methods.(ä†“šÿÿÿÿÿ8—ù”÷/
+P
+java:S1128	".Remove this unused import 'javax.swing.table'.(Ï»¬Âøÿÿÿÿ8•áà“÷/
+O
+java:S1199%"-Extract this nested code block into a method.(ÒÌâ–øÿÿÿÿ8ù”÷/
